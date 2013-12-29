@@ -34,3 +34,9 @@
 ;; Custom settings for working with Agda programming language
 (load-file (let ((coding-system-for-read 'utf-8))
                 (shell-command-to-string "agda-mode locate")))
+
+;; uniquify.el is a helper routine to help give buffer names a better unique name
+(when (load "uniquify" 'NOERROR)
+  (require 'uniquify)
+  (setq uniquify-buffer-name-style 'forward)
+)
