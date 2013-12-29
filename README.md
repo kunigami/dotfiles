@@ -1,7 +1,7 @@
 emacs
 =====
 
-My emacs configuration files
+My emacs 24 configuration files
 
 Cloning the repository
 ==
