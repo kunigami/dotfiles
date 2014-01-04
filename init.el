@@ -40,3 +40,6 @@
   (require 'uniquify)
   (setq uniquify-buffer-name-style 'forward)
 )
+
+;; Keep the files in sync with disk
+(global-auto-revert-mode 1)
