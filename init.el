@@ -43,3 +43,9 @@
 
 ;; Keep the files in sync with disk
 (global-auto-revert-mode 1)
+
+;; Use marmalade to manage packages
+(require 'package)
+(add-to-list 'package-archives
+             '("marmalade" . "http://marmalade-repo.org/packages/"))
+(package-initialize)
