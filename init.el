@@ -42,13 +42,6 @@
 ;; Keep the files in sync with disk
 (global-auto-revert-mode 1)
 
-;; C-x o is not enough when we have more than two buffers openend
-;; because it only go forward. This adds C-x p to go backwards.
-(global-set-key (kbd "C-x p") 'previous-multiframe-window)
-
-;; Emacs 24 supports a basic set of themes
-(load-theme 'tango-dark)
-
 ;; Create directory if doesn't exist. From http://superuser.com/questions/131538
 (defadvice find-file (before make-directory-maybe (filename &optional wildcards) activate)
   "Create parent directory if not exists while visiting file."
