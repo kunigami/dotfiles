@@ -13,4 +13,4 @@ emacs
 tmux
 ====
 
-    cp dotfiles/tmux.conf ~/.tmux.conf
+    cp dotfiles/tmux.conf ~/.tmux.conf
