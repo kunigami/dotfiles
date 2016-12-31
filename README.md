@@ -1,9 +1,13 @@
+dotfiles for my favorite applications
+
+Usage
+==
+
+    git clone git://github.com/kunigami/dotfiles
+
 emacs
 =====
 
-My emacs 24 configuration files
+    cp dotfiles/init.el ~/.emacs.d/
 
-Cloning the repository
-==
 
-    git clone git://github.com/kunigami/emacs ~/.emacs.d/
