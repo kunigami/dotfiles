@@ -10,4 +10,7 @@ emacs
 
     cp dotfiles/init.el ~/.emacs.d/
 
+tmux
+====
 
+    cp dotfiles/tmux.conf ~/.tmux.conf
