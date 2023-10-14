@@ -1,0 +1,10 @@
+[core]
+	editor = code
+[alias]
+	co = checkout
+	b = branch
+	st = status
+	ci = commit
+	df = diff
+[push]
+	default = current
